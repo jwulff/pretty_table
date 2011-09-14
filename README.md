@@ -2,6 +2,8 @@ pretty_table
 ============
 Turns multidimensional data into a pretty table.
 
+Example
+-------
 Top 10 countries by population from the CIA World Factbook https://www.cia.gov/library/publications/the-world-factbook/rankorder/2119rank.html
 
 This:
