@@ -2,7 +2,12 @@ pretty_table
 ============
 Turns multidimensional data into a pretty table.
 
+Example
+-------
 Top 10 countries by population from the CIA World Factbook https://www.cia.gov/library/publications/the-world-factbook/rankorder/2119rank.html
+
+This:
+
     headers = [ 'Country', 'Population', 'Date of Information' ]
     data    = [ [ 'China',         1336718015, 'July 2011 est.' ],
                 [ 'India',         1189172906, 'July 2011 est.' ],
@@ -15,11 +20,21 @@ Top 10 countries by population from the CIA World Factbook https://www.cia.gov/l
                 [ 'Russia',         138739892, 'July 2011 est.' ],
                 [ 'Japan',          126475664, 'July 2011 est.' ] ]
     puts PrettyTable.new(data, headers).to_s
-       Country    |  Population  
-    --------------+--------------
-    China         | 1,336,718,015
-    India         | 1,189,172,906
-    United States |   313,232,044
+
+Makes:
+
+       Country    |  Population   | Date of Information
+    --------------+---------------+--------------------
+    China         | 1,336,718,015 | July 2011 est.     
+    India         | 1,189,172,906 | July 2011 est.     
+    United States |   313,232,044 | July 2011 est.     
+    Indonesia     |   245,613,043 | July 2011 est.     
+    Brazil        |   203,429,773 |                    
+    Pakistan      |   187,342,721 | July 2011 est.     
+    Bangladesh    |   158,570,535 | July 2011 est.     
+    Nigeria       |   155,215,573 |                    
+    Russia        |   138,739,892 | July 2011 est.     
+    Japan         |   126,475,664 | July 2011 est.
 
 Contributing to pretty_table
 ---------------------------- 
