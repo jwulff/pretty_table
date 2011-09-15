@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Wulff"]
   s.date = %q{2011-09-14}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Turns multidimensional data into a pretty table.}
   s.email = %q{johnw@orcasnet.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Turns multidimensional data into a pretty table.}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
