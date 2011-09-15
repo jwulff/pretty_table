@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "pretty_table"
   gem.homepage = "http://github.com/jwulff/pretty_table"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Turns multidimensional data into a pretty table.}
+  gem.description = %Q{Turns multidimensional data into a pretty table.}
   gem.email = "johnw@orcasnet.com"
   gem.authors = ["John Wulff"]
   # dependencies defined in Gemfile
